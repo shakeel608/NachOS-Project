@@ -1,0 +1,16 @@
+ 
+//Copy the File from Unix to Nachos First
+
+./nachos-step5 -cp getchar getchar
+
+Run a program
+
+./nachos-step5 -x getchar
+
+
+Run Directly from Unix
+./nachos-withstub -x putchar
+
+rs- include randomness
+
+ ./nachos-withstub -rs 8 -x ./testjoin
